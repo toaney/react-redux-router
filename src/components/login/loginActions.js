@@ -31,15 +31,6 @@ export const setLogin = (num) => {
         };
     });
 
-        // .then( (api_response, dispatch) => {
-        //     if ( api_response.status !== "ERROR" ){
-
-        //         dispatch({
-        //             type: 'SET_LOGIN',
-        //             isLoggedIn: true
-        //         });
-        //     }
-        // })
 };
 
 export const setLogout = () => ({
