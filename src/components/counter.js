@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Counter = () => {
-    const [ user, setUser ] = React.useState('123455');
+    const [ user ] = React.useState('123455');
     const [ userInput, setUserInput ] = React.useState('');
 
     return(
